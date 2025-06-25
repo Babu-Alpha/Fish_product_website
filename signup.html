@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./css/signup.css" />
+  </head>
+  <body>
+    <div class="signup-container">
+      <form id="signupForm" class="signup-form">
+        <h2>Sign Up</h2>
+
+        <input type="email" id="email" placeholder="e-mail" required />
+        <input type="password" id="password" placeholder="password" required />
+        <input
+          type="password"
+          id="repeat-password"
+          placeholder="repeat password"
+          required
+        />
+
+        <div class="remember">
+          <input type="checkbox" id="remember" />
+          <label for="remember">Remember me</label>
+        </div>
+
+        <p class="or">Sign up with social account</p>
+        <div class="social-icons">
+          <span class="icon google"></span>
+          <span class="icon facebook"></span>
+          <span class="icon instagram"></span>
+        </div>
+
+        <button type="submit">Sign up</button>
+        <p class="license">Read <a href="#">User License Agreement</a></p>
+      </form>
+    </div>
+  </body>
+</html>
