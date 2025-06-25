@@ -1,21 +1,17 @@
-/* Reset some styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  body {
-    animation: fadeIn 1s ease-in;
-  }
-
-  font-family: "Segoe UI", sans-serif;
 }
 
 body {
+  font-family: "Segoe UI", sans-serif;
   background: linear-gradient(145deg, #16dd08, #5cc2ec);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  animation: fadeIn 1s ease-in;
 }
 
 .signup-container {
